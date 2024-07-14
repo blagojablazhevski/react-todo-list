@@ -1,0 +1,6 @@
+[{"task_id":1,"task_name":"🗑️ Take out the trash.","completed":false},
+{"task_id":2,"task_name":"🐕 Walk the dog.","completed":true},
+{"task_id":3,"task_name":"🏪 Buy groceries.","completed":true},
+{"task_id":4,"task_name":"👟 Go for a run.","completed":true},
+{"task_id":5,"task_name":"📖 Read \"Pale Fire\" by Vladimir Nabokov.","completed":true},
+{"task_id":6,"task_name":"📞 Call mom.","completed":false}]
