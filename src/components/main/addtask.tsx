@@ -17,6 +17,8 @@ const flavorText: Array<string> = [
   "👽 Bogos binted.",
   "🌀 Practice rasengan.",
   "🌙 Enable dark mode.",
+  "👟 Go for a run.",
+  "📖 Read a book.",
 ];
 
 interface AddTaskProps {
@@ -30,7 +32,6 @@ const AddTask: React.FC<AddTaskProps> = ({ fetchTasks }) => {
     flavorText[Math.floor(Math.random() * flavorText.length)];
 
   useEffect(() => {
-    // Initialize local storage with an empty array if 'tasks' doesn't exist
     if (!localStorage.getItem("tasks")) {
       localStorage.setItem("tasks", JSON.stringify([]));
     }
