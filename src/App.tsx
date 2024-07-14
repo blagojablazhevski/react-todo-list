@@ -32,7 +32,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="test">
+    <div>
       <ThemeSelector>
         <Layout cssClass="gap-4 grid grid-flow-row auto-rows-max text-center w-96 mb-3">
           <DarkModeSwitch darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
